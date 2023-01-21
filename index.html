@@ -4,14 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Foundations CA</title>
+    <title>Programming Foundations CA - Alexander</title>
     <link href='css/style.css' rel='stylesheet' />
-    <link rel='icon' href='data:;base64,=' />
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
-
-    <script src="js/script.js"></script>
+    <div>
+        <h1>Bus Information</h1>
+        <div>
+          <p>Driver: <span id="driver"></span></p>
+          <p>ID: <span id="id"></span></p>
+          <p>Color: <span id="color"></span></p>
+          <p>Start Time: <span id="start-time"></span></p>
+          <p>Is Driving: <span id="is-driving"></span></p>
+          <p>Capacity: <span id="capacity"></span></p>
+          <p>Passengers: <span id="passengers"></span></p>
+          <p>Destination: <span id="destination"></span></p>
+          <p>Fuel Level: <span id="fuel-level"></span></p>
+          <p>Route: <span id="route"></span></p>
+          <p>Departure Time: <span id="departure-time"></span></p>
+          <p>Arrival Time: <span id="arrival-time"></span></p>
+        </div>
+        <div class="button-list">
+          <button id="start-driving">Start Driving</button>
+          <button id="stop-driving">Stop Driving</button>
+          <button id="pickup-passenger">Pick Up Passenger</button>
+          <button id="dropoff-passenger">Drop Off Passenger</button>
+          <div>
+            <button id="change-route">Change Route</button>
+            <input id="new-route" type="text" placeholder="Enter new route">
+          </div>
+          <button id="check-fuel">Check Fuel</button>
+          <button id="check-status">Check Status</button>
+          <div>
+            <button id="login-driver">Login Driver</button>
+            <input id="driver-name" type="text" placeholder="Enter driver name">
+          </div>
+          <button id="logout-driver">Logout Driver</button>
+          <button id="show-schedule">Show Schedule</button>
+        </div>
+      </div>
 </body>
 
 </html>
