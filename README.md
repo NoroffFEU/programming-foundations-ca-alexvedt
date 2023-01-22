@@ -15,4 +15,4 @@ stops (Array), an array of strings representing the stops of the bus route
 ignition (Function), a function to start and stop the bus.
 
 
-I will continue making the project working in for the end-user, and this is not complete yet, therefore do not mind the html and css.
+I will continue making the project working in for the end-user, and this is not complete yet, therefore do not mind the html and css..
