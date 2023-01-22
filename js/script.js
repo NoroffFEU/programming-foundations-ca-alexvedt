@@ -14,6 +14,7 @@ const buses = {
         departureTime: "13:30",
         arrivalTime: "15:00",
     },
+    stops: ["Rykkinn", "Oslo", "Downtown"],
     ignition: function() {
         bus.on = !bus.on
     }
