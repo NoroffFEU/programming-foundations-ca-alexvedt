@@ -14,6 +14,9 @@ const buses = {
         departureTime: "13:30",
         arrivalTime: "15:00",
     },
+    ignition: function() {
+        bus.on = !bus.on
+    }
   }
 
 //   NOTE: First lets get the driver element from the html
@@ -44,6 +47,15 @@ startDrivingEl.addEventListener("click",() =>{
     isDrivingEl.innerHTML = formatIsDriving(buses.isDriving);
 });
 
+/* get the `stop driving` button element from the html
+const stopDrivingEl = document.querySelector("#stop-driving");
+// Add a click event handler to the `stop driving` button
+stopDrivingEl.addEventListener("click", () => {
+}
+
+stopDrivingEl.innerHTML = formatIsDriving(buses.isDriving);
+*/
+
 // Get the destination element from the HTML.
 const destinationEl = document.querySelector("#destination");
 // Display the destination from the buses object in your html to the end-user
@@ -73,6 +85,7 @@ changeRouteEl.addEventListener("click", () => {
 function formatIsDriving(isDriving){
  return isDriving ? "yes" : "no"; 
 }
+
 
 
 
